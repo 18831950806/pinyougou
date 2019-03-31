@@ -22,7 +22,10 @@ public class LoginController {
     @RequestMapping("/name")
     public Map<String,Object> showName(HttpServletRequest request){
 
-
+        System.out.println(12323);
+        System.out.println(12323);
+        System.out.println(12323);
+        System.out.println(12323);
 
         //使用SecurityContextHolder 工具类 获取用户名或是用户名对象 当前线程
         String username2 = SecurityContextHolder.getContext().getAuthentication().getName();
